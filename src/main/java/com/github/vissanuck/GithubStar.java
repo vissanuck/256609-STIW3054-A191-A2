@@ -24,7 +24,7 @@ public class GithubStar
                 long t1 = 0;
                 int d = 1;
                 do {
-                    HttpURLConnection conn = (HttpURLConnection) new URL(GithubData.stars.get(i).getData0() + "?per_page=100&&page=" + d + "&&access_token=9efa7d7cf9b425df53be1ebbb6f1c30ad9bcce9c").openConnection();
+                    HttpURLConnection conn = (HttpURLConnection) new URL(GithubData.stars.get(i).getData0() + "?per_page=100&&page=" + d + "&&access_token=323c11e265f9037d7a5260ee1720013fad46aa92").openConnection();
                     conn.addRequestProperty("User-Agent", "Mozilla/5.0");
                     BufferedReader read = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                     StringBuilder responseSB2 = new StringBuilder();
