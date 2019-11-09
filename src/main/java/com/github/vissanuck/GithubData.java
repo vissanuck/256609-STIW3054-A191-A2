@@ -31,7 +31,7 @@ public class GithubData
             {
                 for (int i = 1; i <= 2; i++)
                 {
-                    HttpURLConnection conn = (HttpURLConnection) new URL("https://api.github.com/users/zhamri/followers?per_page=100&page=" + i + "&&access_token=574b320e15060d877312dfb80e9c953919a12976").openConnection();
+                    HttpURLConnection conn = (HttpURLConnection) new URL("https://api.github.com/users/zhamri/followers?per_page=100&page=" + i + "&&access_token=9efa7d7cf9b425df53be1ebbb6f1c30ad9bcce9c").openConnection();
                     conn.addRequestProperty("User-Agent", "Mozilla/5.0");
                     BufferedReader read = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                     StringBuilder resBuilder = new StringBuilder();
