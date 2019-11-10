@@ -31,7 +31,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.github.vissanuck.ExcelDisplay</mainClass>
+                            <mainClass>com.github.vissanuck.GithubMain</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
