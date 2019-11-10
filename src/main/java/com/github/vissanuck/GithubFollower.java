@@ -29,7 +29,7 @@ public class GithubFollower
                                 int b = 1;
                                 do
                                 {
-                                HttpURLConnection conn = (HttpURLConnection) new URL(GithubData.follower.get(i).getData0() + "?per_page=100&&page=" + b + "&&access_token=371d6ad134edffa97a9f2083946133c0407c8588").openConnection();
+                                HttpURLConnection conn = (HttpURLConnection) new URL(GithubData.follower.get(i).getData0() + "?per_page=100&&page=" + b + "&&access_token=5b521cdd08af76608924ed689b5521f7e241923b").openConnection();
                                 conn.addRequestProperty("User-Agent", "Mozilla/5.0");
                                 BufferedReader read = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                                 StringBuilder resBuilder = new StringBuilder();
@@ -48,7 +48,7 @@ public class GithubFollower
                     } catch (IOException e)
                         {
                             e.printStackTrace();
-                            //System.out.println("ERROR : Failed to access no. of followers");
+                            //System.out.println("Faill ");
                         }
             }
     }
